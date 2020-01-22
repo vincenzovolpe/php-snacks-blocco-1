@@ -15,6 +15,7 @@
             [
                 'name' => 'Roberto',
                 'lastname' => 'Marazzini'
+
             ],
             [
                 'name' => 'Federico',
@@ -42,11 +43,7 @@
                     if ($teachers == "teachers") {
                         echo "<br>";
                         foreach ($value as $key) {
-                            echo "<br>";
-                            foreach ($key as $elemento => $valore) {
-                                echo $elemento. ": ".$valore;
-                                echo "<br>";
-                            }
+                            echo "<br>".$key['name']." ".$key['lastname'];
                         }
                         echo "<br>";
                     }
@@ -59,11 +56,7 @@
                     if ($teachers == "pm") {
                         echo "<br>";
                         foreach ($value as $key) {
-                            echo "<br>";
-                            foreach ($key as $elemento => $valore) {
-                                echo $elemento. ": ".$valore;
-                                echo "<br>";
-                            }
+                            echo "<br>".$key['name']." ".$key['lastname'];
                         }
                         echo "<br>";
                     }
