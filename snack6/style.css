@@ -1,0 +1,28 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    width: 50%;
+    height: 50vh;
+    border: 1px solid black;
+}
+
+.grigio {
+    background-color: grey;
+    width: 50%;
+}
+
+.verde {
+    background-color: green;
+    width: 50%;
+}
+
+h1 {
+    text-align: center;
+}
